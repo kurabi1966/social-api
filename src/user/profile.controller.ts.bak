@@ -1,0 +1,18 @@
+// import { Controller, Get, Param } from '@nestjs/common';
+// import { User } from './decorators/user.decorators';
+// import { UserProfileInterface } from './types/userProfile.Interface';
+// import { UserService } from './user.service';
+
+// @Controller('profiles')
+// export class ProfileController {
+//   constructor(private readonly userService: UserService) {}
+
+//   @Get('/:username')
+//   async getProfile(
+//     @User('id') currentUserId: number,
+//     @Param('username') username: string,
+//   ): Promise<UserProfileInterface> {
+//     const user = await this.userService.findByUserName(username);
+//     return this.userService.buildProfileResponse(currentUserId, user);
+//   }
+// }
